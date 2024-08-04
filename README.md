@@ -44,7 +44,7 @@ Folders:
 ├── Beginner                          - Collection of scripts, given the 'beginner' difficulty rating
 ├── Intermediate                      - Collection of scripts, given the 'intermediate' difficulty rating
 ├── Advanced                          - Collection of scripts, given the 'advanced' difficulty rating
-│      └── FoodProcessCSV.java        - Helper Java program to load SQLite database from the provided CSVs
+│      └── ProjectName                - Group of files that are connected, through file reference and inheritance
 ```
 
 Other Files:
