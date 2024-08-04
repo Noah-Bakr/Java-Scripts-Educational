@@ -2,8 +2,6 @@
 
 # Java Scripts (Educational)
 [![Project Version][version-image]][version-url]
-[![Backend][Backend-image]][Backend-url]
-<br>
 [![Java][Java-image]][Java-url]
 [![Eclipse][Eclipse-image]][Eclipse-url]
 [![VSCode][VSCode-image]][VSCode-url]
