@@ -1,4 +1,4 @@
-package intermediate; // Folder Reference
+package Intermediate; // Folder Reference
 
 /* A script that utilises "Insertion Sort" to order an array. 
     Steps are shown in the output for educational purposes. Coded in Java. 

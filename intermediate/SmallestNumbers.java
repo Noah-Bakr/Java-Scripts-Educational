@@ -1,4 +1,4 @@
-package intermediate; // Folder Reference
+package Intermediate; // Folder Reference
 
 /* A script that utilises "Selection Sort" to order an array and,
     returns the two smallest numbers. Coded in Java. 
