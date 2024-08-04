@@ -41,16 +41,16 @@ This repository was designed to demonstrate:
 ## File Directory
 Folders:
 ```bash
-├── Beginner                          - Collection of scripts, given the 'beginner' difficulty rating
-├── Intermediate                      - Collection of scripts, given the 'intermediate' difficulty rating
-├── Advanced                          - Collection of scripts, given the 'advanced' difficulty rating
-│      └── ProjectName                - Group of files that are connected, through file reference and inheritance
+├── Beginner                  - Collection of scripts, given the 'beginner' difficulty rating
+├── Intermediate              - Collection of scripts, given the 'intermediate' difficulty rating
+├── Advanced                  - Collection of scripts, given the 'advanced' difficulty rating
+│      └── ProjectName        - Group of files that are connected, through file reference and inheritance
 ```
 
 Other Files:
 ```bash
-├── JSE-Header.png                     - Header image
-└── README.md                          - This file
+├── JSE-Header.png            - Header image
+└── README.md                 - This file
 ```
 
 ---
