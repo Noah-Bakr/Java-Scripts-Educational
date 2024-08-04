@@ -68,7 +68,7 @@ Other Files:
 ## Building & Running the code
 There are two types of script builds
 1. Single ``.java`` script files
-2. Secondary folders with two or more ``.java`` script files (with the addition of other files if necessary)
+2. Secondary folders with **two or more** ``.java`` script files (with the addition of other files if necessary)
 
 ### Running a ``.java`` Script File
 1. Open the repository within VSCode or, download the single ``.java`` file
