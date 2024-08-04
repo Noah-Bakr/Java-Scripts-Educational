@@ -11,7 +11,7 @@
 This repository is a curated collection of Java projects that I’ve developed throughout my academic journey. Each script highlights various aspects of Java programming, from core concepts to advanced features, demonstrating my growth as a developer.
 
 > [!NOTE]  
-> This repository is a collection of scripts, coded in Java. Projects can be found on my Github profile or, view my most recent project[PS1-url].
+> This repository is a collection of scripts, coded in Java. Projects can be found on my Github profile or, view my most recent [project][PS1-url].
 
 ---
 ## Author
@@ -34,7 +34,7 @@ This repository was designed to demonstrate:
   * Search &amp; Sort Algorithms
 * **Database Integration**
   * JDBC Integration
-    * Further depth is shown in this[PS1-url] project
+    * Further depth is shown in [this][PS1-url] project
 
 ---
 
