@@ -1,4 +1,14 @@
-package Beginner;
+package Beginner; // Folder Reference
+
+/* A script that reads an array and filters out 'even numbers' through 'if' statement operations,
+    then returns only the odd numbers, in an array. Coded in Java. 
+
+    Workflow: 
+        1. Define and write methods in order
+        2. Main method executes all required methods */
+
+/* Array == [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+    Therefore, output = [1, 3, 5, 7, 9] */
 
 import java.util.Arrays;
 
