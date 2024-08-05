@@ -1,6 +1,6 @@
 package Beginner; // Folder Reference
 
-/* A script that utilises the Random class to choose an output (heads or tails). Coded in Java. 
+/* A script that utilises the 'Random' class to choose an output (heads or tails). Coded in Java. 
 
     Workflow: 
         1. Define and write methods in order
