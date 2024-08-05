@@ -7,8 +7,8 @@ package Intermediate; // Folder Reference
 
 import java.util.Scanner;
 
-public class GuessTheWord{
-    public static void main(String[] args){
+public class GuessTheWord {
+    public static void main(String[] args) {
         
         Scanner scnr = new Scanner(System.in);
         
