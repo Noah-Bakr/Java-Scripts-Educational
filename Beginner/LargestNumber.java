@@ -4,7 +4,7 @@ package Beginner; // Folder Reference
 
 import java.util.ArrayList;
 
-public class SearchClass {
+public class LargestNumber {
     public static void main(String[] args) throws Exception {
 
         // int arrays are declared and assigned values
