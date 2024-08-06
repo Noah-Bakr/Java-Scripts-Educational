@@ -34,7 +34,7 @@ This repository was designed to demonstrate:
   * Search &amp; Sort Algorithms
 * **Database Integration**
   * JDBC Integration
-    * Further depth is shown in [this][PS1-url] project
+    * Further depth is shown in this [project][PS1-url]
 
 ---
 
