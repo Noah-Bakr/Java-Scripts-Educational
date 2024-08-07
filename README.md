@@ -59,6 +59,7 @@ Other Files:
 | [``CoinFlip.java``][CoinFlip-url] | A script that utilises the 'Random' class to choose an output (heads or tails). | Beginner |
 | [``Fibonacci.java``][Fibonacci-url] | A script that utilises the Fibonacci Sequence formula (Fn = Fn-1 + Fn-2, where n > 1), to locate a sequence position. | Beginner |
 | [``LargestNumber.java``][LargestNumber-url] | A script to find the largest number in each array. | Beginner |
+| [``PerfectSquare.java``][PerfectSquare-url] | A script that accepts 3 decimal values and checks 'if' they are a 'perfect square', then returns the SQRT and boolean. | Beginner |
 | [``RemoveEvenNumbers.java``][RemoveEvenNumbers-url] | A script that reads an array and filters out 'even numbers' through 'if' statement operations, then returns only the odd numbers, in an array. | Beginner |
 ||||
 | [``GuessTheWord.java``][GuessTheWord-url] | A script that utilises The 'String Tokeniser' class to break a string into tokens, i.e. an array of individual characters. | Intermediate |
@@ -140,8 +141,9 @@ There are two types of script builds
 <!-- Links to Code Files -->
 [CoinFlip-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/CoinFlip.java
 [Fibonacci-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/Fibonacci.java
-[RemoveEvenNumbers-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/RemoveEvenNumbers.java
 [LargestNumber-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/LargestNumber.java
+[PerfectSquare-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/PerfectSquare.java
+[RemoveEvenNumbers-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/RemoveEvenNumbers.java
 
 [GuessTheWord-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/intermediate/GuessTheWord.java
 [InsertionSort-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/intermediate/InsertionSort.java
