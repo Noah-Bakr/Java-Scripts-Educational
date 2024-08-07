@@ -1,72 +1,53 @@
-package Beginner;
+package Beginner; // Folder Reference
+
+/* A script that acepts 3 decimal values and and checks iif they are a 'perfect square' through 'if' statement operations,
+    then returns the SQRT and boolean. Coded in Java. 
+
+    Workflow: 
+        1. Define and write 'check' method
+        2. Main method accepts input then manipulates in 'print' statement  */
+
+/* Input of 16 should output:
+ *    Input       Square Root as Integer      Perfect Square
+ *    16.00       4                           true
+ */
 
 import java.util.Scanner;
 public class PerfectSquare{
-    public static void main(String[] args){
-        
-        double inputVal1;
-        double inputVal2;
-        double inputVal3;
-        
-        boolean Val1PerfectSquare;
-        boolean Val2PerfectSquare;
-        boolean Val3PerfectSquare;
-        
-        Scanner scnr = new Scanner(System.in);
-        
-        System.out.println("Please input your first decimal value:");
-        inputVal1 = scnr.nextDouble();
-        double sqrtInputVal1 = Math.sqrt(inputVal1);
 
-        if (sqrtInputVal1 % 1 == 0){
-           Val1PerfectSquare = true;
-        }
-        else {
-           Val1PerfectSquare = false;
-        }
-        
-        
-        double sqrtInputVal1Rounded = (int)sqrtInputVal1;
-        int sqrtInputVal1Int = (int)sqrtInputVal1Rounded;
-       
-        
-        System.out.println("Please input your second decimal value:");
-        inputVal2 = scnr.nextDouble();
-        double sqrtInputVal2 = Math.sqrt(inputVal2);
+   // Method to check if a number is a perfect square
+   public static boolean isPerfectSquare(double x) {
+      // If the remainder of the number is 0, then it is a perfect square and, true is returned
+      return (x % 1 == 0);
+   }
 
-        if (sqrtInputVal2 % 1 == 0){
-           Val2PerfectSquare = true;
-        }
-        else {
-           Val2PerfectSquare = false;
-        }
+    public static void main(String[] args) {
         
-        
-        double sqrtInputVal2Rounded = (int)sqrtInputVal2;
-        int sqrtInputVal2Int = (int)sqrtInputVal2Rounded;
-        
-        System.out.println("Please input your third decimal value:");
-        inputVal3 = scnr.nextDouble();
-        
-        double sqrtInputVal3 = Math.sqrt(inputVal3);
+        double value1;
+        double value2;
+        double value3;
 
-        if (sqrtInputVal3 % 1 == 0){
-           Val3PerfectSquare = true;
-        }
-        else {
-           Val3PerfectSquare = false;
-        }
+        Scanner scnr = new Scanner(System.in); // Scanner object to read input
         
+        // Read the 3 decimal values
+        System.out.print("Please input your first decimal value: ");
+        value1 = scnr.nextDouble();
+
+        System.out.print("Please input your second decimal value: ");
+        value2 = scnr.nextDouble();
         
-        double sqrtInputVal3Rounded = (int)sqrtInputVal3;
-        int sqrtInputVal3Int = (int)sqrtInputVal3Rounded;
+        System.out.print("Please input your third decimal value: ");
+        value3 = scnr.nextDouble();
         
+        scnr.close(); // Close scanner
+
         System.out.println();
         
         System.out.printf("%-10s%-30s%-20s\n", "Input", "Square Root as Integer", "Perfect Square");
-        System.out.printf("%-10.2f%-30d%-20s\n", inputVal1, sqrtInputVal1Int, Val1PerfectSquare);
-        System.out.printf("%-10.2f%-30d%-20s\n", inputVal2, sqrtInputVal2Int, Val2PerfectSquare);
-        System.out.printf("%-10.2f%-30d%-20s\n", inputVal3, sqrtInputVal3Int, Val3PerfectSquare);
-        //System.out.println(sqrtInputVal1Int);
+        // Print the values and their respective SQRT and boolean
+        System.out.printf("%-10.2f%-30d%-20s\n", value1, (int)Math.sqrt(value1), isPerfectSquare(Math.sqrt(value1)));
+        System.out.printf("%-10.2f%-30d%-20s\n", value2, (int)Math.sqrt(value2), isPerfectSquare(Math.sqrt(value2)));
+        System.out.printf("%-10.2f%-30d%-20s\n", value3, (int)Math.sqrt(value3), isPerfectSquare(Math.sqrt(value3)));
+        
     }
 }
