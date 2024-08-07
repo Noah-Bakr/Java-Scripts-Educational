@@ -22,7 +22,6 @@ public class PerfectSquare{
    }
 
     public static void main(String[] args) {
-        
         double value1;
         double value2;
         double value3;
