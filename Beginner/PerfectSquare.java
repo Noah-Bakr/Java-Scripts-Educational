@@ -1,6 +1,6 @@
 package Beginner; // Folder Reference
 
-/* A script that acepts 3 decimal values and and checks iif they are a 'perfect square' through 'if' statement operations,
+/* A script that acepts 3 decimal values and and checks 'if' they are a 'perfect square',
     then returns the SQRT and boolean. Coded in Java. 
 
     Workflow: 
