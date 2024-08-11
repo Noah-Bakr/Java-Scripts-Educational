@@ -59,6 +59,7 @@ Other Files:
 | [``CoinFlip.java``][CoinFlip-url] | A script that utilises the 'Random' class to choose an output (heads or tails). | Beginner |
 | [``Fibonacci.java``][Fibonacci-url] | A script that utilises the Fibonacci Sequence formula (Fn = Fn-1 + Fn-2, where n > 1), to locate a sequence position. | Beginner |
 | [``LargestNumber.java``][LargestNumber-url] | A script to find the largest number in each array. | Beginner |
+| [``LeapYear.java``][LeapYear-url] | A script that utilises 'if' statements to decide if an enetered year was/is a leap year. | Beginner |
 | [``PerfectSquare.java``][PerfectSquare-url] | A script that accepts 3 decimal values and checks 'if' they are a 'perfect square', then returns the SQRT and boolean. | Beginner |
 | [``RemoveEvenNumbers.java``][RemoveEvenNumbers-url] | A script that reads an array and filters out 'even numbers' through 'if' statement operations, then returns only the odd numbers, in an array. | Beginner |
 ||||
@@ -142,6 +143,7 @@ There are two types of script builds
 [CoinFlip-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/CoinFlip.java
 [Fibonacci-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/Fibonacci.java
 [LargestNumber-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/LargestNumber.java
+[LeapYear-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/LeapYear.java
 [PerfectSquare-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/PerfectSquare.java
 [RemoveEvenNumbers-url]: https://github.com/Noah-Bakr/Java-Scripts-Educational/blob/main/Beginner/RemoveEvenNumbers.java
 
